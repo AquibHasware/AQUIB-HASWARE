@@ -2,7 +2,7 @@
         int main()
 {
         int num,rem,sum=0,temp;
-        printf("enter  the number to check armstrong number");
+        printf("Enter  the number to check armstrong number\n");
         scanf("%d",&num);
         temp=num;
         while(temp!=0)
@@ -13,11 +13,11 @@
      }
         if(num==sum)
      {
-       printf("It is an armstrong number");
+       printf("\nIt is an armstrong number");
      }
         else
      {
-       printf("It is not an armstrong number");
+       printf("\nIt is not an armstrong number");
      }
         return (0);
 }
