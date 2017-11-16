@@ -5,9 +5,9 @@
         printf("enter  the number to check armstrong number");
         scanf("%d",&num);
         temp=num;
-        while(num!=0)
+        while(temp!=0)
      {
-        rem=num%10;
+        rem=temp%10;
         sum=sum+(rem*rem*rem);
         temp=temp/10;
      }
