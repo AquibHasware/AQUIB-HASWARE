@@ -1,19 +1,23 @@
-#include<stdio.h>
-int main()
+        #include<stdio.h>
+        int main()
 {
-int num,rem,sum=0,temp;
-printf("enter any integer");
-scanf("%d",&num);
-temp=num;
-while(num!=0)
-{
-rem=num%10;
-sum=sum+(rem*rem*rem);
-num=num/10;
-}
-if(temp==sum)
-   printf("%d is armstrong number",temp);
-else
-   printf("%d is not armstrong number",temp);
-return (0);
+        int num,rem,sum=0,temp;
+        printf("enter  the number to check armstrong number");
+        scanf("%d",&num);
+        temp=num;
+        while(num!=0)
+     {
+        rem=num%10;
+        sum=sum+(rem*rem*rem);
+        temp=temp/10;
+     }
+        if(num==sum)
+     {
+       printf("It is an armstrong number");
+     }
+        else
+     {
+       printf("It is not an armstrong number");
+     }
+        return (0);
 }
